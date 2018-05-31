@@ -1,0 +1,26 @@
+# Automatically normalize line endings for all text-based files.
+# https://git-scm.com/docs/gitattributes#_end_of_line_conversion
+
+* text=auto
+
+# Source code
+*.html text
+
+# Documentation
+
+# Configs
+.editorconfig text
+.gitattributes text
+
+# Graphics
+*.jpg binary
+*.png binary
+*.gif binary
+*.webp binary
+
+# Video
+*.mp4 binary
+*.webm binary
+
+# Archives
+*.zip binary
